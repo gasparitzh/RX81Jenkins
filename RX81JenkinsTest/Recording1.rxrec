@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="98fd5dd3-a993-43ab-89d6-925f2d56a82b"
+mode="Global"
+rxversion="8.1">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="RX81JenkinsTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="9b9b0810-64c1-4285-b387-cfce75427f2d"
+	name="RX81JenkinsTestRepository"
+	relativepath="RX81JenkinsTestRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="RX81JenkinsTestRepository"
+		namespace="RX81JenkinsTest">
+		</codegen>
+		<rootfolder
+		id="9abeaefb-13ee-4820-853f-66a77aacee20"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

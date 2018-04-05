@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.1">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="RX81JenkinsTest"
+      id="f5b85107-5602-4c0f-8e99-7ad80ab23f21"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="RX81JenkinsTest"
+      id="f5b85107-5602-4c0f-8e99-7ad80ab23f21"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
