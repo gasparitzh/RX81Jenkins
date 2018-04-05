@@ -24,29 +24,29 @@ namespace RX81JenkinsTest
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Recording1 recording.
+    ///The Recording2 recording.
     /// </summary>
-    [TestModule("98fd5dd3-a993-43ab-89d6-925f2d56a82b", ModuleType.Recording, 1)]
-    public partial class Recording1 : ITestModule
+    [TestModule("7f3e12ca-ec28-4767-be35-c2f33d503b56", ModuleType.Recording, 1)]
+    public partial class Recording2 : ITestModule
     {
         /// <summary>
         /// Holds an instance of the RX81JenkinsTestRepository repository.
         /// </summary>
         public static RX81JenkinsTestRepository repo = RX81JenkinsTestRepository.Instance;
 
-        static Recording1 instance = new Recording1();
+        static Recording2 instance = new Recording2();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Recording1()
+        public Recording2()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Recording1 Instance
+        public static Recording2 Instance
         {
             get { return instance; }
         }
@@ -79,7 +79,7 @@ namespace RX81JenkinsTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "User", "Recording 1", new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "User", "Recording 2", new RecordItemIndex(0));
             
         }
 

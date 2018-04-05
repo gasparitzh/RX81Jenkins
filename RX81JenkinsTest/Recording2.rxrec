@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="98fd5dd3-a993-43ab-89d6-925f2d56a82b"
+id="7f3e12ca-ec28-4767-be35-c2f33d503b56"
 mode="Global"
 rxversion="8.1">
 	<name>
-		Recording1
+		Recording2
 	</name>
 	<repeatcount>
 		1
@@ -23,7 +23,7 @@ rxversion="8.1">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Recording1"
+	classname="Recording2"
 	namespace="RX81JenkinsTest">
 	</codegen>
 	<variables>
@@ -32,10 +32,10 @@ rxversion="8.1">
 		<loggingrecorditem
 		category="User"
 		enabled="True"
-		message="Recording 1"
+		message="Recording 2"
 		optional="False"
 		reportlevel="Info;20"
-		searchpropertyid="038f9588-b816-4fbf-a226-ea0061ae84f9">
+		searchpropertyid="a4eefd3b-6a28-4751-bdc7-67117d43c186">
 			<comment>
 			</comment>
 			<bindings>
@@ -58,7 +58,7 @@ rxversion="8.1">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Recording1.UserCode.cs
+		Recording2.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>
