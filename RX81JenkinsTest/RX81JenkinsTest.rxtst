@@ -13,6 +13,20 @@ rxversion="8.1">
 			id="310a4961-a764-4efc-b674-c978dbd82542"
 			name="SmokeTest">
 			</testcase>
+			<testmodule
+			id="33bde467-50c0-4412-8f4f-b191219800a3"
+			name="Recording3"
+			ref="cfcd6931-6f3b-4490-bb4d-8df504c49cd1"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="filename"
+					datasourceid="8569f4cf-d520-46ca-a765-fa4b4adef79d"
+					variableid="4727b6f7-2375-4e3e-b736-fd9f64158257"
+					variablename="textvalue">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			id="74d66602-8534-423e-a62b-3aacc11194e5"
 			name="FullTest">
@@ -33,6 +47,16 @@ rxversion="8.1">
 			id="8569f4cf-d520-46ca-a765-fa4b4adef79d"
 			name="RX81JenkinsTest"
 			reportlevel="Info;20">
+				<parameters>
+					<param
+					name="filename"
+					value="keinFilename Übergeben">
+					</param>
+				</parameters>
+			</testcase>
+			<testcase
+			id="a453a5e6-77e2-4f27-a127-5f9e75ba19a9"
+			name="GlobalParameter">
 			</testcase>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
@@ -76,6 +100,14 @@ rxversion="8.1">
 						name="Recording2">
 						</testmodule>
 					</testcase>
+					<testcase
+					id="a453a5e6-77e2-4f27-a127-5f9e75ba19a9"
+					name="GlobalParameter">
+						<testmodule
+						id="33bde467-50c0-4412-8f4f-b191219800a3"
+						name="Recording3">
+						</testmodule>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -94,6 +126,9 @@ rxversion="8.1">
 			</testcontainer>
 			<testcontainer
 			id="8569f4cf-d520-46ca-a765-fa4b4adef79d">
+			</testcontainer>
+			<testcontainer
+			id="a453a5e6-77e2-4f27-a127-5f9e75ba19a9">
 			</testcontainer>
 		</testconfiguration>
 		<testconfiguration

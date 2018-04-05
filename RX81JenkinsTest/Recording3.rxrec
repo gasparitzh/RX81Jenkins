@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="cfcd6931-6f3b-4490-bb4d-8df504c49cd1"
+mode="Global"
+rxversion="8.1">
+	<name>
+		Recording3
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording3"
+	namespace="RX81JenkinsTest">
+	</codegen>
+	<variables>
+		<var
+		id="4727b6f7-2375-4e3e-b736-fd9f64158257"
+		name="textvalue">
+		</var>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="0def05ec-0c76-4a5e-adc2-67720c9fb6b4">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="textvalue">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="9b9b0810-64c1-4285-b387-cfce75427f2d"
+	name="RX81JenkinsTestRepository"
+	relativepath="RX81JenkinsTestRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="RX81JenkinsTestRepository"
+		namespace="RX81JenkinsTest">
+		</codegen>
+		<rootfolder
+		id="9abeaefb-13ee-4820-853f-66a77aacee20"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording3.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
