@@ -54,6 +54,10 @@ rxversion="8.1">
 					</param>
 				</parameters>
 			</testcase>
+			<smartfoldernode
+			id="8ebcd3a8-6af1-4551-a106-db8cd851faf6"
+			name="CustomFolder">
+			</smartfoldernode>
 			<testcase
 			id="a453a5e6-77e2-4f27-a127-5f9e75ba19a9"
 			name="GlobalParameter">
@@ -95,10 +99,14 @@ rxversion="8.1">
 						id="75e30b37-6ae4-45be-8c75-3dec28f1d9ec"
 						name="Recording1">
 						</testmodule>
-						<testmodule
-						id="1e8fcdd8-49f0-4a18-8ee9-677e8ed3d6b1"
-						name="Recording2">
-						</testmodule>
+						<smartfoldernode
+						id="8ebcd3a8-6af1-4551-a106-db8cd851faf6"
+						name="CustomFolder">
+							<testmodule
+							id="1e8fcdd8-49f0-4a18-8ee9-677e8ed3d6b1"
+							name="Recording2">
+							</testmodule>
+						</smartfoldernode>
 					</testcase>
 					<testcase
 					id="a453a5e6-77e2-4f27-a127-5f9e75ba19a9"
@@ -126,6 +134,9 @@ rxversion="8.1">
 			</testcontainer>
 			<testcontainer
 			id="8569f4cf-d520-46ca-a765-fa4b4adef79d">
+			</testcontainer>
+			<testcontainer
+			id="8ebcd3a8-6af1-4551-a106-db8cd851faf6">
 			</testcontainer>
 			<testcontainer
 			id="a453a5e6-77e2-4f27-a127-5f9e75ba19a9">
