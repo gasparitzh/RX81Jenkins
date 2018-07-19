@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="98fd5dd3-a993-43ab-89d6-925f2d56a82b"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		Recording1
 	</name>
@@ -27,6 +27,11 @@ rxversion="8.1">
 	namespace="RX81JenkinsTest">
 	</codegen>
 	<variables>
+		<var
+		id="e51723fb-0a43-4c99-a54d-78bd0199bce8"
+		name="appPath">
+			c:\temp\webdriver.exe
+		</var>
 	</variables>
 	<recorditems>
 		<loggingrecorditem
@@ -41,6 +46,24 @@ rxversion="8.1">
 			<bindings>
 			</bindings>
 		</loggingrecorditem>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="FileName"
+				variable="appPath">
+				</binding>
+			</bindings>
+			<filename>
+				c:\blub\bin\test.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
 	</recorditems>
 	<repository
 	id="9b9b0810-64c1-4285-b387-cfce75427f2d"

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <testsuitedoc
-rxversion="8.1">
+rxversion="8.2">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
@@ -42,6 +42,14 @@ rxversion="8.1">
 			name="Recording1"
 			ref="98fd5dd3-a993-43ab-89d6-925f2d56a82b"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="filename"
+					datasourceid="8569f4cf-d520-46ca-a765-fa4b4adef79d"
+					variableid="e51723fb-0a43-4c99-a54d-78bd0199bce8"
+					variablename="appPath">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
 			id="8569f4cf-d520-46ca-a765-fa4b4adef79d"
@@ -50,7 +58,7 @@ rxversion="8.1">
 				<parameters>
 					<param
 					name="filename"
-					value="keinFilename Übergeben">
+					value="C:\blub\test.exe">
 					</param>
 				</parameters>
 			</testcase>

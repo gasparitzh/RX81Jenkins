@@ -33,5 +33,11 @@ namespace RX81JenkinsTest
             // Your recording specific initialization code goes here.
         }
 
+        public void MethodFails()
+        {
+            // TODO: Replace the following line with your code implementation.
+            throw new NotImplementedException();
+        }
+
     }
 }

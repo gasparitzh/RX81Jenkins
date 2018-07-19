@@ -71,7 +71,7 @@ namespace RX81JenkinsTest
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -83,7 +83,7 @@ namespace RX81JenkinsTest
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
@@ -93,6 +93,9 @@ namespace RX81JenkinsTest
             Init();
 
             Report.Log(ReportLevel.Info, "User", textvalue, new RecordItemIndex(0));
+            
+            MethodFails();
+            Delay.Milliseconds(0);
             
         }
 

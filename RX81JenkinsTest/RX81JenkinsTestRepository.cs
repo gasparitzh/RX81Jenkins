@@ -22,11 +22,12 @@ namespace RX81JenkinsTest
     /// <summary>
     /// The class representing the RX81JenkinsTestRepository element repository.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
     [RepositoryFolder("9abeaefb-13ee-4820-853f-66a77aacee20")]
     public partial class RX81JenkinsTestRepository : RepoGenBaseFolder
     {
         static RX81JenkinsTestRepository instance = new RX81JenkinsTestRepository();
+        RX81JenkinsTestRepositoryFolders.TestRail50FullJIRATestManagementAppFolder _testrail50fulljiratestmanagement;
 
         /// <summary>
         /// Gets the singleton class instance representing the RX81JenkinsTestRepository element repository.
@@ -43,6 +44,7 @@ namespace RX81JenkinsTest
         public RX81JenkinsTestRepository() 
             : base("RX81JenkinsTestRepository", "/", null, 0, false, "9abeaefb-13ee-4820-853f-66a77aacee20", ".\\RepositoryImages\\RX81JenkinsTestRepository9abeaefb.rximgres")
         {
+            _testrail50fulljiratestmanagement = new RX81JenkinsTestRepositoryFolders.TestRail50FullJIRATestManagementAppFolder(this);
         }
 
 #region Variables
@@ -60,14 +62,166 @@ namespace RX81JenkinsTest
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The TestRail50FullJIRATestManagement folder.
+        /// </summary>
+        [RepositoryFolder("23434f56-38a0-4e30-a10b-6fa8f7366ba9")]
+        public virtual RX81JenkinsTestRepositoryFolders.TestRail50FullJIRATestManagementAppFolder TestRail50FullJIRATestManagement
+        {
+            get { return _testrail50fulljiratestmanagement; }
+        }
     }
 
     /// <summary>
     /// Inner folder classes.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
     public partial class RX81JenkinsTestRepositoryFolders
     {
+        /// <summary>
+        /// The TestRail50FullJIRATestManagementAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("23434f56-38a0-4e30-a10b-6fa8f7366ba9")]
+        public partial class TestRail50FullJIRATestManagementAppFolder : RepoGenBaseFolder
+        {
+            RX81JenkinsTestRepositoryFolders.NewRootedFolderFolder _newrootedfolder;
+
+            /// <summary>
+            /// Creates a new TestRail50FullJIRATestManagement  folder.
+            /// </summary>
+            public TestRail50FullJIRATestManagementAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("TestRail50FullJIRATestManagement", "/dom[@domain='blog.gurock.com']", parentFolder, 30000, null, false, "23434f56-38a0-4e30-a10b-6fa8f7366ba9", "")
+            {
+                _newrootedfolder = new RX81JenkinsTestRepositoryFolders.NewRootedFolderFolder(this);
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("23434f56-38a0-4e30-a10b-6fa8f7366ba9")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("23434f56-38a0-4e30-a10b-6fa8f7366ba9")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The NewRootedFolder folder.
+            /// </summary>
+            [RepositoryFolder("ecb95539-1671-49f5-9cdb-d79ece8dcbb8")]
+            public virtual RX81JenkinsTestRepositoryFolders.NewRootedFolderFolder NewRootedFolder
+            {
+                get { return _newrootedfolder; }
+            }
+        }
+
+        /// <summary>
+        /// The NewRootedFolderFolder folder.
+        /// </summary>
+        [RepositoryFolder("ecb95539-1671-49f5-9cdb-d79ece8dcbb8")]
+        public partial class NewRootedFolderFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _testrail50fulljiratestmanagementInfo;
+            RepoItemInfo _subscribeInfo;
+
+            /// <summary>
+            /// Creates a new NewRootedFolder  folder.
+            /// </summary>
+            public NewRootedFolderFolder(RepoGenBaseFolder parentFolder) :
+                    base("NewRootedFolder", "", parentFolder, 30000, null, false, "ecb95539-1671-49f5-9cdb-d79ece8dcbb8", "")
+            {
+                _testrail50fulljiratestmanagementInfo = new RepoItemInfo(this, "TestRail50FullJIRATestManagement", "body/div[4]/div//h1[@innertext~'^TestRail\\ 5\\.0\\ –\\ Full\\ JIRA\\ ']", 30000, null, "83dc27d9-a337-4928-bb01-b132d55fd8ca");
+                _subscribeInfo = new RepoItemInfo(this, "Subscribe", "body/div[3]/?/?/form[@action='https://gurock.createsend.com/t/y/s/atkvj/']//button[@innertext='Subscribe']", 30000, null, "a1ef5cf7-38d8-448a-b943-ad1a79070156");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("ecb95539-1671-49f5-9cdb-d79ece8dcbb8")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("ecb95539-1671-49f5-9cdb-d79ece8dcbb8")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TestRail50FullJIRATestManagement item.
+            /// </summary>
+            [RepositoryItem("83dc27d9-a337-4928-bb01-b132d55fd8ca")]
+            public virtual Ranorex.H1Tag TestRail50FullJIRATestManagement
+            {
+                get
+                {
+                    return _testrail50fulljiratestmanagementInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TestRail50FullJIRATestManagement item info.
+            /// </summary>
+            [RepositoryItemInfo("83dc27d9-a337-4928-bb01-b132d55fd8ca")]
+            public virtual RepoItemInfo TestRail50FullJIRATestManagementInfo
+            {
+                get
+                {
+                    return _testrail50fulljiratestmanagementInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Subscribe item.
+            /// </summary>
+            [RepositoryItem("a1ef5cf7-38d8-448a-b943-ad1a79070156")]
+            public virtual Ranorex.ButtonTag Subscribe
+            {
+                get
+                {
+                    return _subscribeInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Subscribe item info.
+            /// </summary>
+            [RepositoryItemInfo("a1ef5cf7-38d8-448a-b943-ad1a79070156")]
+            public virtual RepoItemInfo SubscribeInfo
+            {
+                get
+                {
+                    return _subscribeInfo;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }

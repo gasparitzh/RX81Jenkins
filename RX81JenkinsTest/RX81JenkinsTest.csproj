@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>RX81JenkinsTest</RootNamespace>
     <AssemblyName>RX81JenkinsTest</AssemblyName>
-    <RanorexVersion>8.1</RanorexVersion>
+    <RanorexVersion>8.2</RanorexVersion>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
     <projectdefaultrepository>576599ac-4bf7-4ef3-ad5d-7a04e5505853</projectdefaultrepository>
@@ -47,6 +47,9 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
       <Private>False</Private>
     </Reference>
     <Reference Include="Ranorex.Plugin.FirefoxWeb">

@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="cfcd6931-6f3b-4490-bb4d-8df504c49cd1"
 mode="Global"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		Recording3
 	</name>
@@ -49,6 +49,22 @@ rxversion="8.1">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
+		<userrecorditem
+		classname="Recording3"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="MethodFails"
+		namespace="RX81JenkinsTest"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="aad4d3a3-e21c-4926-9daf-0907d53144ca">
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="9b9b0810-64c1-4285-b387-cfce75427f2d"

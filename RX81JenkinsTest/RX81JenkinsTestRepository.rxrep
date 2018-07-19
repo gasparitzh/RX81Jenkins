@@ -1,19 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <repository
-name="RX81JenkinsTestRepository"
 id="9b9b0810-64c1-4285-b387-cfce75427f2d"
-rxversion="8.1">
-  <codegen
-  classname="RX81JenkinsTestRepository"
-  namespace="RX81JenkinsTest"/>
-  <rootfolder
-  name="Root"
-  id="9abeaefb-13ee-4820-853f-66a77aacee20"
-  searchtimeout="30000ms"
-  capname="unknown"
-  isrooted="True"
-  usecache="True">
-    <basepath/>
-  </rootfolder>
-  <variables/>
+name="RX81JenkinsTestRepository"
+rxversion="8.2">
+	<codegen
+	classname="RX81JenkinsTestRepository"
+	namespace="RX81JenkinsTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="9abeaefb-13ee-4820-853f-66a77aacee20"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="23434f56-38a0-4e30-a10b-6fa8f7366ba9"
+		isrooted="True"
+		name="TestRail50FullJIRATestManagement"
+		refpath="/dom[@domain='blog.gurock.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			capname="webdocument"
+			id="ecb95539-1671-49f5-9cdb-d79ece8dcbb8"
+			isrooted="True"
+			name="NewRootedFolder"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,h1tag"
+				capname="h1tag"
+				id="83dc27d9-a337-4928-bb01-b132d55fd8ca"
+				name="TestRail50FullJIRATestManagement"
+				refimgid="305d6e69-c532-48b5-a8da-9ee12bceeefd"
+				refpath="/dom[@domain='blog.gurock.com']/body/div[4]/div/div/div/div/div/h1[@innertext='TestRail 5.0 – Full JIRA Test Management &amp; More']"
+				searchtimeout="30000ms">
+					/dom[@domain='blog.gurock.com']/body/div[4]/div//h1[@innertext~'^TestRail\ 5\.0\ &#8211;\ Full\ JIRA\ ']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="a1ef5cf7-38d8-448a-b943-ad1a79070156"
+				name="Subscribe"
+				refimgid="e147a6a9-4d82-48a2-8d94-1f667f3fd13d"
+				refpath="/dom[@domain='blog.gurock.com']/body/div[3]/div/form[@action='https://gurock.createsend.com/t/y/s/atkvj/']/div/span/button[@innertext='Subscribe']"
+				searchtimeout="30000ms">
+					/dom[@domain='blog.gurock.com']/body/div[3]/?/?/form[@action='https://gurock.createsend.com/t/y/s/atkvj/']//button[@innertext='Subscribe']
+				</item>
+				<basepath>
+					/dom[@domain='blog.gurock.com']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='blog.gurock.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
 </repository>

@@ -1,0 +1,91 @@
+{
+  "RanorexSuites": [
+    {
+      "Id": "8899bc5c-b024-4097-96c2-bb7f907fc4fe/db35bb30-ea87-43ad-94ca-57ad070346e1",
+      "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/8899bc5c-b024-4097-96c2-bb7f907fc4fe",
+      "Name": "RX81JenkinsTest"
+    }
+  ],
+  "CaseFields": [],
+  "ResultFields": [],
+  "TestRailProject": {
+    "Id": "P3576",
+    "Pid": null,
+    "Name": "RX81JenkinsTest",
+    "BaseUri": "http://docker/testrail",
+    "ProjectSuiteMode": 3,
+    "ProjectCustomizations": null
+  },
+  "Projects": [
+    {
+      "Rx": {
+        "Id": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/8899bc5c-b024-4097-96c2-bb7f907fc4fe",
+        "Pid": "00000000-0000-0000-0000-000000000000/dad44cfc-8edc-4c10-b83e-9263a5e2af17",
+        "Name": "RX81JenkinsTest"
+      },
+      "Tr": null
+    }
+  ],
+  "TestSuites": [
+    {
+      "Rx": {
+        "Id": "8899bc5c-b024-4097-96c2-bb7f907fc4fe/db35bb30-ea87-43ad-94ca-57ad070346e1",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/8899bc5c-b024-4097-96c2-bb7f907fc4fe",
+        "Name": "RX81JenkinsTest"
+      },
+      "Tr": {
+        "Id": "S3371",
+        "Pid": "P1",
+        "Name": "RX81JenkinsTest"
+      }
+    }
+  ],
+  "Sections": [
+    {
+      "Rx": null,
+      "Tr": {
+        "Id": "G15186",
+        "Pid": "S3371",
+        "Name": "RX81JenkinsTest"
+      }
+    }
+  ],
+  "Cases": [
+    {
+      "Rx": {
+        "Id": "db35bb30-ea87-43ad-94ca-57ad070346e1/310a4961-a764-4efc-b674-c978dbd82542",
+        "Pid": "8899bc5c-b024-4097-96c2-bb7f907fc4fe/db35bb30-ea87-43ad-94ca-57ad070346e1",
+        "Name": "SmokeTest"
+      },
+      "Tr": {
+        "Id": "C116421",
+        "Pid": "G3",
+        "Name": "SmokeTest"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "db35bb30-ea87-43ad-94ca-57ad070346e1/74d66602-8534-423e-a62b-3aacc11194e5",
+        "Pid": "8899bc5c-b024-4097-96c2-bb7f907fc4fe/db35bb30-ea87-43ad-94ca-57ad070346e1",
+        "Name": "FullTest"
+      },
+      "Tr": {
+        "Id": "C116422",
+        "Pid": "G3",
+        "Name": "FullTest"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "db35bb30-ea87-43ad-94ca-57ad070346e1/a453a5e6-77e2-4f27-a127-5f9e75ba19a9",
+        "Pid": "8899bc5c-b024-4097-96c2-bb7f907fc4fe/db35bb30-ea87-43ad-94ca-57ad070346e1",
+        "Name": "GlobalParameter"
+      },
+      "Tr": {
+        "Id": "C116423",
+        "Pid": "G3",
+        "Name": "GlobalParameter"
+      }
+    }
+  ]
+}

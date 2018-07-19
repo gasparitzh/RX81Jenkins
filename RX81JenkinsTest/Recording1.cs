@@ -41,6 +41,7 @@ namespace RX81JenkinsTest
         /// </summary>
         public Recording1()
         {
+            appPath = "c:\\temp\\webdriver.exe";
         }
 
         /// <summary>
@@ -53,12 +54,24 @@ namespace RX81JenkinsTest
 
 #region Variables
 
+        string _appPath;
+
+        /// <summary>
+        /// Gets or sets the value of variable appPath.
+        /// </summary>
+        [TestVariable("e51723fb-0a43-4c99-a54d-78bd0199bce8")]
+        public string appPath
+        {
+            get { return _appPath; }
+            set { _appPath = value; }
+        }
+
 #endregion
 
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -70,7 +83,7 @@ namespace RX81JenkinsTest
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
@@ -80,6 +93,10 @@ namespace RX81JenkinsTest
             Init();
 
             Report.Log(ReportLevel.Info, "User", "Recording 1", new RecordItemIndex(0));
+            
+            Report.Log(ReportLevel.Info, "Application", "Run application with file name from variable $appPath with arguments '' in normal mode.", new RecordItemIndex(1));
+            Host.Local.RunApplication(appPath, "", "", false);
+            Delay.Milliseconds(0);
             
         }
 
