@@ -46,30 +46,12 @@ rxversion="8.2">
 			<bindings>
 			</bindings>
 		</loggingrecorditem>
-		<runapprecorditem
-		enabled="True"
-		maximized="False"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="FileName"
-				variable="appPath">
-				</binding>
-			</bindings>
-			<filename>
-				c:\blub\bin\test.exe
-			</filename>
-			<args>
-			</args>
-		</runapprecorditem>
 	</recorditems>
 	<repository
 	id="9b9b0810-64c1-4285-b387-cfce75427f2d"
 	name="RX81JenkinsTestRepository"
 	relativepath="RX81JenkinsTestRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.2">
 		<codegen
 		classname="RX81JenkinsTestRepository"
 		namespace="RX81JenkinsTest">

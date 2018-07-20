@@ -94,10 +94,6 @@ namespace RX81JenkinsTest
 
             Report.Log(ReportLevel.Info, "User", "Recording 1", new RecordItemIndex(0));
             
-            Report.Log(ReportLevel.Info, "Application", "Run application with file name from variable $appPath with arguments '' in normal mode.", new RecordItemIndex(1));
-            Host.Local.RunApplication(appPath, "", "", false);
-            Delay.Milliseconds(0);
-            
         }
 
 #region Image Feature Data

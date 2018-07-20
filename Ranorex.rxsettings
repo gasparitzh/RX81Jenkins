@@ -1,5 +1,5 @@
 ﻿<configuration
-rxversion="8.1">
+rxversion="8.2">
 	<adapter.defaultsearchtimeout>
 		10000ms
 	</adapter.defaultsearchtimeout>
@@ -1245,7 +1245,7 @@ rxversion="8.1">
 		True
 	</plugins.win32.EnableDynamicMsaa>
 	<plugins.win32.ProcessWhitelist>
-		chrome;firefox;
+		chrome;
 	</plugins.win32.ProcessWhitelist>
 	<plugins.win32.ProcessBlacklist>
 	</plugins.win32.ProcessBlacklist>

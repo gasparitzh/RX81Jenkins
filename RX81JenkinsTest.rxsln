@@ -1,13 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-# Ranorex Studio 8.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RX81JenkinsTest", "RX81JenkinsTest\RX81JenkinsTest.csproj", "{8899BC5C-B024-4097-96C2-BB7F907FC4FE}"
-EndProject
+# Ranorex Studio 8.2
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FEB77360-C171-4C74-9FCD-4BD09F456DC3}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
+		TestRail = C:\Users\hgasparitz\Documents\Ranorex\RanorexStudio Projects\RX81JenkinsTest\TestRail.trsd
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RX81JenkinsTest", "RX81JenkinsTest\RX81JenkinsTest.csproj", "{8899BC5C-B024-4097-96C2-BB7F907FC4FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
