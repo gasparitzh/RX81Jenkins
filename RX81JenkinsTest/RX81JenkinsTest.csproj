@@ -155,6 +155,18 @@
       <UserCode>true</UserCode>
       <id>60f372e5-40c5-49ad-a63d-b518bc17bff5</id>
     </Compile>
+    <Compile Include="Recording4.cs">
+      <BoundTo>cfba8869-1753-4118-a9dc-50c493e2dae0</BoundTo>
+      <DependentUpon>Recording4.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8e7894e6-d8fc-41bd-9c42-1340799087be</id>
+    </Compile>
+    <Compile Include="Recording4.UserCode.cs">
+      <BoundTo>cfba8869-1753-4118-a9dc-50c493e2dae0</BoundTo>
+      <DependentUpon>Recording4.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>249bec62-4ec5-4d7b-95b5-f1031cf2652e</id>
+    </Compile>
     <Compile Include="RX81JenkinsTestRepository.cs">
       <BoundTo>576599ac-4bf7-4ef3-ad5d-7a04e5505853</BoundTo>
       <DependentUpon>RX81JenkinsTestRepository.rxrep</DependentUpon>
@@ -180,6 +192,11 @@
       <BoundTo>576599ac-4bf7-4ef3-ad5d-7a04e5505853</BoundTo>
       <id>8dd9cf2c-d590-4d12-9cde-ff2b3f25a77f</id>
       <recordtableid>cfcd6931-6f3b-4490-bb4d-8df504c49cd1</recordtableid>
+    </None>
+    <None Include="Recording4.rxrec">
+      <BoundTo>576599ac-4bf7-4ef3-ad5d-7a04e5505853</BoundTo>
+      <id>cfba8869-1753-4118-a9dc-50c493e2dae0</id>
+      <recordtableid>560c7480-57d1-4263-aab8-2db84d371d2c</recordtableid>
     </None>
     <None Include="RX81JenkinsTestRepository.rximg">
       <BoundTo>576599ac-4bf7-4ef3-ad5d-7a04e5505853</BoundTo>

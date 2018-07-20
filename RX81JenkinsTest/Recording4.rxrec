@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="560c7480-57d1-4263-aab8-2db84d371d2c"
+mode="Global"
+rxversion="8.2">
+	<name>
+		Recording4
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording4"
+	namespace="RX81JenkinsTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="SampleModuleformy Colleagues"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="54b12727-3cb8-496f-ac83-a706f2c85a9d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="9b9b0810-64c1-4285-b387-cfce75427f2d"
+	name="RX81JenkinsTestRepository"
+	relativepath="RX81JenkinsTestRepository.rxrep"
+	rxversion="8.2">
+		<codegen
+		classname="RX81JenkinsTestRepository"
+		namespace="RX81JenkinsTest">
+		</codegen>
+		<rootfolder
+		id="9abeaefb-13ee-4820-853f-66a77aacee20"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording4.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
